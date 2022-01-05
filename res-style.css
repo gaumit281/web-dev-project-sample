@@ -1,0 +1,275 @@
+@media (max-width: 1200px){
+    
+}
+@media (max-width: 990px){
+    /* -----  home page styling --------*/
+    nav .logo img{
+        width: 60%;
+        height: 13vh;
+        padding: 0.5rem;
+    }
+    .home .main-content .left-side{
+        position: absolute;
+        top: 35%;
+    }
+    .home .main-content .center p{
+        position: absolute;
+        left: 25%;
+        font-size: 1rem;
+    }
+    .main-header ul{
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    #iconbar{
+        opacity: 1;
+        visibility: visible;
+    }
+    .main-header.responsive{
+        width: 100% !important;
+        height: 100vh !important;
+        background-color: #111;
+        padding-top: 5rem !important;
+        position: relative;
+    }
+    .main-header.responsive ul{
+        opacity: 1;
+        visibility: visible;
+    }
+    .main-header.responsive ul{
+        display: flex;
+        line-height: 70px;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1rem;
+    }
+
+    /*------------------- about section -----------------------*/
+
+    .about-page .container .card img{
+        width: 100%;
+        height: 30vh;
+        padding: 1rem 1rem;
+    }
+
+    /* -----------------------  third-section style ------------------ */
+    .third-section{
+        width: 100%;
+    }
+    .third-section .right-side{
+        color: #fff;
+        width: 50%;
+    }
+    .third-section .right-side p{
+        width: 90%;
+        padding-top: 1rem;
+        padding-bottom: 2.5rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .third-section .right-side h1{
+        font-size: 2rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: rgb(255, 153, 0);
+    }
+
+    /* footer section style */
+    .footer-sec .right-side h1{
+        font-size: 1.5rem;
+    }
+    .footer-sec .right-side i{
+        font-size: 3rem;
+        padding-right: 1rem;
+    }
+    .footer-sec .center-side{
+        text-align: left;
+    }
+
+}
+@media (max-width: 800px){
+    /* -----  home page styling --------*/
+    nav .logo img{
+        width: 80%;
+        height: 13vh;
+        padding: 0.5rem;
+    }
+    
+    .home .main-content .left-side{
+        position: absolute;
+        top: 35%;
+    }
+    .home .main-content .center p{
+        position: absolute;
+        left: 25%;
+        font-size: 1rem;
+    }
+
+    /* --------------------- about section style -------------------------- */
+
+    .about-page .container{
+    width: 100%;
+    color: #fff;
+    padding: 2rem 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    }
+
+        /* -----------------------  third-section style ------------------ */
+        .third-section{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            padding: 5rem 1rem;
+        }
+        .third-section .left-side img{
+            width: 100%;
+            height: auto;
+        }
+        .third-section .right-side{
+            color: #fff;
+            width: 50%;
+        }
+        .third-section .right-side p{
+            width: 90%;
+            padding-top: 1rem;
+            padding-bottom: 2.5rem;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .third-section .right-side h1{
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: rgb(255, 153, 0);
+        }
+
+        /* footer section css */
+        .footer-sec{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            padding-left: 10rem;
+        }
+        .footer-sec .left-side{
+            width: 100%;
+        }
+        .footer-sec .center-side{
+            width: 100%;
+            padding-top: 2rem;
+        }
+        .footer-sec .right-side{
+            width: 100%;
+            padding-top: 2rem;
+            text-align: left;
+        }
+}
+@media (max-width: 600px){
+    /* -----  home page styling --------*/
+    .home .main-content .left-side{
+        position: absolute;
+        left: 5%;
+    }
+    .home .main-content .center p{
+        position: absolute;
+        left: 15%;
+    }
+    section{
+        background-position: center;
+    }
+
+     /* --------------------- about section style -------------------------- */
+
+     .about-page .container{
+        width: 100%;
+        color: #fff;
+        padding: 2rem 2rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+        }
+}
+@media (max-width: 480px){
+    /* -----  home page styling --------*/
+    nav .logo img{
+        width: 100%;
+        height: 10vh;
+        padding: 0.5rem;
+    }
+    .home .main-content .left-side{
+        position: absolute;
+        top: 30%;
+    }
+    .home .main-content .center p{
+        position: absolute;
+        left: 25%;
+        top: 95%;
+        font-size: 0.5rem;
+    }
+     /* --------------------- about section style -------------------------- */
+
+     .about-page .container{
+        width: 100%;
+        color: #fff;
+        padding: 1rem 0rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+        }
+        .about-page .container .card img{
+           width: 100%;
+           height: 30vh;
+        }
+                /* -----------------------  third-section style ------------------ */
+                .third-section{
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    padding: 5rem 1rem;
+                }
+                .third-section .left-side img{
+                    width: 100%;
+                    height: auto;
+                }
+                .third-section .right-side{
+                    color: #fff;
+                    width: 50%;
+                }
+                .third-section .right-side p{
+                    width: 100%;
+                    padding-top: 1rem;
+                    padding-bottom: 2.5rem;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                }
+                .third-section .right-side h1{
+                    font-size: 0.9rem;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    color: rgb(255, 153, 0);
+                }
+                .third-section .right-side a{
+                    padding: 1rem 1rem;
+                    border: 2px solid rgb(255, 153, 0);
+                    border-radius: 1rem;
+                    text-decoration: none;
+                    font-size: 1rem;
+                    font-weight: bold;
+                    color: rgb(255, 153, 0);
+                    text-transform: uppercase;
+                }
+
+
+                /* -----------------  footer section style -------------- */
+
+                .footer-sec{
+                    padding-left: 5rem;
+                }
+}
+
+
+
+
+
+
+
+
